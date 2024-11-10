@@ -118,7 +118,7 @@ h6,
 }
 
 .page-header {
-    height: 400px;
+    height: 21vw;
     margin-bottom: 90px;
     display: flex;
     flex-direction: column;
@@ -126,6 +126,15 @@ h6,
     justify-content: center;
     background:  url(../img/unabBanner.png);
     background-attachment: fixed;
+    
+}
+
+.sombreado-banner{
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 21vw;
+    opacity: .3;
 }
 
 @media (max-width: 991.98px) {
