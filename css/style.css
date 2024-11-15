@@ -323,11 +323,6 @@ h6,
     background-attachment: fixed;
 }
 
-.nombrechistoso {
-    display: flex;
-    justify-content: center ;
-    padding: 1vw 5vw 2vw 5vw 
-}
 
 .main_form {
     padding: 60px 10% 80px 10%;
@@ -387,6 +382,22 @@ h6,
     background-color: #eda911;
     transition: ease-in all 0.5s;
     color: #000;
+}
+
+.btn-hola{
+    background-color: #e9a427;
+    color: #ffffff;
+    padding: 13px 0px;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 35px;
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+
 }
 
 
