@@ -63,38 +63,39 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
-    <div class="container-fluid position-relative nav-bar p-0">
-        <div class="position-relative px-lg-5" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
-                    <h1 class="text-uppercase text-primary mb-1">Royal Cars</h1>
-                </a>
+    <div class="container-fluid position-relative nav-bar p-0" >
+        
+        <div class="position-relative px-lg-5" style="z-index: 9; width: 100%; padding-left: 3rem ;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5" style="width: 100%;" >
+                
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse" >
+                    <a href="index.html" style=" width: 25vw; height: 6vw;">
+                        <img src="img/logoUnab.png" alt="" style=" width: 15vw; height: 5vw;">
+                    </a>
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Noticias</a>
+                        <a href="service.html" class="nav-item nav-link">Eventos</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Cars</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Perfil</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="car.html" class="dropdown-item">Car Listing</a>
-                                <a href="detail.html" class="dropdown-item active">Car Detail</a>
-                                <a href="booking.html" class="dropdown-item">Car Booking</a>
+                                <a href="car.html" class="dropdown-item">Notas</a>
+                                <a href="detail.html" class="dropdown-item">Cursos</a>
+                                <a href="booking.html" class="dropdown-item">horario</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Horas libres</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="team.html" class="dropdown-item">The Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="team.html" class="dropdown-item">Cuantas tienes y cuantas te faltan</a>
+                                <a href="testimonial.html" class="dropdown-item">Eventos registrados</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.html" class="naitemv- nav-link active">¿No tienes perfil?</a>
                     </div>
                 </div>
             </nav>
@@ -103,51 +104,6 @@
     <!-- Navbar End -->
 
 
-    <!-- Search Start -->
-    <div class="container-fluid bg-white pt-3 px-lg-5">
-        <div class="row mx-n2">
-            <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                <select class="custom-select px-4 mb-3" style="height: 50px;">
-                    <option selected>Pickup Location</option>
-                    <option value="1">Location 1</option>
-                    <option value="2">Location 2</option>
-                    <option value="3">Location 3</option>
-                </select>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                <select class="custom-select px-4 mb-3" style="height: 50px;">
-                    <option selected>Drop Location</option>
-                    <option value="1">Location 1</option>
-                    <option value="2">Location 2</option>
-                    <option value="3">Location 3</option>
-                </select>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                <div class="date mb-3" id="date" data-target-input="nearest">
-                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Date"
-                        data-target="#date" data-toggle="datetimepicker" />
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                <div class="time mb-3" id="time" data-target-input="nearest">
-                    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Time"
-                        data-target="#time" data-toggle="datetimepicker" />
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                <select class="custom-select px-4 mb-3" style="height: 50px;">
-                    <option selected>Select A Car</option>
-                    <option value="1">Car 1</option>
-                    <option value="2">Car 1</option>
-                    <option value="3">Car 1</option>
-                </select>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;">Search</button>
-            </div>
-        </div>
-    </div>
-    <!-- Search End -->
 
 
     <!-- Page Header Start -->
@@ -155,14 +111,15 @@
         
     </div>
     <div class="container-fluid page-header">
-        <h1 class="display-3 text-uppercase text-white mb-3">Car Detail</h1>
+        <h1 class="display-3 text-uppercase text-white mb-3" style="z-index: 2;">Tus Cursos</h1>
         <div class="d-inline-flex text-white">
-            <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
+            <h6 class="text-uppercase m-0" style="z-index: 2; color: white;"><a class="text-white" href="index.html" >Inicio</a></h6>
             <h6 class="text-body m-0 px-3">/</h6>
-            <h6 class="text-uppercase text-body m-0">Car Detail</h6>
+            <h6 class="text-uppercase text-body m-0" >Tus cursos</h6>
         </div>
     </div>
     <!-- Page Header Start -->
+
 
 
     <!-- Detail Start -->
@@ -170,115 +127,107 @@
         <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-8 mb-5">
-                    <h1 class="display-4 text-uppercase mb-5">Mercedes Benz R3</h1>
+                    <h1 class="display-4 text-uppercase mb-5">¡Matricula! tus cursos</h1>
                     <div class="row mx-n2 mb-3">
                         <div class="col-md-3 col-6 px-2 pb-2">
-                            <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/cafe.png" alt="">
                         </div>
                         <div class="col-md-3 col-6 px-2 pb-2">
-                            <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/cohete.png" alt="">
                         </div>
                         <div class="col-md-3 col-6 px-2 pb-2">
-                            <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/vibra+.png" alt="">
                         </div>
                         <div class="col-md-3 col-6 px-2 pb-2">
-                            <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/parlante.png" alt="">
                         </div>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                    <p>Las siguientes materias estaran disponibles para su ¡matricula! segun se muestra acontinuacion</p>
                     <div class="row pt-2">
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-car text-primary mr-2"></i>
-                            <span>Model: 2015</span>
+                            <span>Calculo multivariable</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-cogs text-primary mr-2"></i>
-                            <span>Automatic</span>
+                            <span>NRC:89748</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-road text-primary mr-2"></i>
-                            <span>20km/liter</span>
+                            <span>20/11/2025</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-eye text-primary mr-2"></i>
-                            <span>GPS Navigation</span>
+                            <span>8:00 pm</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-car text-primary mr-2"></i>
-                            <span>Model: 2015</span>
+                            <span>Biologia</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-cogs text-primary mr-2"></i>
-                            <span>Automatic</span>
+                            <span>NRC:6871236</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-road text-primary mr-2"></i>
-                            <span>20km/liter</span>
+                            <span>19/05/2025</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-eye text-primary mr-2"></i>
-                            <span>GPS Navigation</span>
+                            <span>6:00 am</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-car text-primary mr-2"></i>
-                            <span>Model: 2015</span>
+                            <span>Quimica</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-cogs text-primary mr-2"></i>
-                            <span>Automatic</span>
+                            <span>NRC:123456</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-road text-primary mr-2"></i>
-                            <span>20km/liter</span>
+                            <span>20/12/2024</span>
                         </div>
                         <div class="col-md-3 col-6 mb-2">
                             <i class="fa fa-eye text-primary mr-2"></i>
-                            <span>GPS Navigation</span>
+                            <span>10:00 am</span>
                         </div>
                     </div>
                </div>
 
                 <div class="col-lg-4 mb-5">
                     <div class="bg-secondary p-5">
-                        <h3 class="text-primary text-center mb-4">Check Availability</h3>
+                        <h3 class="text-primary text-center mb-4">Matricula ahora</h3>
                         <div class="form-group">
                             <select class="custom-select px-4" style="height: 50px;">
-                                <option selected>Pickup Location</option>
-                                <option value="1">Location 1</option>
-                                <option value="2">Location 2</option>
-                                <option value="3">Location 3</option>
+                                <option selected>Materia</option>
+                                <option value="1">Calculo multivariable</option>
+                                <option value="2">Biologia</option>
+                                <option value="3">Quimica</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <select class="custom-select px-4" style="height: 50px;">
-                                <option selected>Drop Location</option>
-                                <option value="1">Location 1</option>
-                                <option value="2">Location 2</option>
-                                <option value="3">Location 3</option>
+                                <option selected>Sede</option>
+                                <option value="1">Jardin</option>
+                                <option value="2">Bosque</option>
+                                <option value="3">Casona</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <div class="date" id="date1" data-target-input="nearest">
-                                <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Date"
+                                <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Selecciona el dia"
                                     data-target="#date1" data-toggle="datetimepicker" />
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="time" id="time1" data-target-input="nearest">
-                                <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Pickup Time"
+                                <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Selecciona la hora"
                                     data-target="#time1" data-toggle="datetimepicker" />
                             </div>
                         </div>
-                        <div class="form-group">
-                            <select class="custom-select px-4" style="height: 50px;">
-                                <option selected>Select Person</option>
-                                <option value="1">Person 1</option>
-                                <option value="2">Person 2</option>
-                                <option value="3">Person 3</option>
-                            </select>
-                        </div>
                         <div class="form-group mb-0">
-                            <button class="btn btn-primary btn-block" type="submit" style="height: 50px;">Check Now</button>
+                            <a class="btn btn-primary px-3" href="https://cosmos.unab.edu.co">¡Matricula!</a>
                         </div>
                     </div>
                 </div>
@@ -291,83 +240,51 @@
     <!-- Related Car Start -->
     <div class="container-fluid pb-5">
         <div class="container pb-5">
-            <h2 class="mb-4">Related Cars</h2>
+            <h2 class="mb-4">Otras materias</h2>
             <div class="owl-carousel related-carousel position-relative" style="padding: 0 30px;">
                 <div class="rent-item">
-                    <img class="img-fluid mb-4" src="img/car-rent-1.png" alt="">
-                    <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
+                    <img class="img-fluid mb-4" src="img/logo unab negativo.jpeg" alt="">
+                    <h4 class="text-uppercase mb-4">Calculo integral</h4>
                     <div class="d-flex justify-content-center mb-4">
-                        <div class="px-2">
-                            <i class="fa fa-car text-primary mr-1"></i>
-                            <span>2015</span>
-                        </div>
                         <div class="px-2 border-left border-right">
                             <i class="fa fa-cogs text-primary mr-1"></i>
-                            <span>AUTO</span>
-                        </div>
-                        <div class="px-2">
-                            <i class="fa fa-road text-primary mr-1"></i>
-                            <span>25K</span>
+                            <span>NRC:81273</span>
                         </div>
                     </div>
-                    <a class="btn btn-primary px-3" href="">$99.00/Day</a>
+                    <a class="btn btn-primary px-3" href="https://cosmos.unab.edu.co">¡Matricula!</a>
                 </div>
                 <div class="rent-item">
-                    <img class="img-fluid mb-4" src="img/car-rent-2.png" alt="">
-                    <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
+                    <img class="img-fluid mb-4" src="img/logoUnab.png" alt="">
+                    <h4 class="text-uppercase mb-4">Base de datos</h4>
                     <div class="d-flex justify-content-center mb-4">
-                        <div class="px-2">
-                            <i class="fa fa-car text-primary mr-1"></i>
-                            <span>2015</span>
-                        </div>
                         <div class="px-2 border-left border-right">
                             <i class="fa fa-cogs text-primary mr-1"></i>
-                            <span>AUTO</span>
-                        </div>
-                        <div class="px-2">
-                            <i class="fa fa-road text-primary mr-1"></i>
-                            <span>25K</span>
+                            <span>NRC:123123</span>
                         </div>
                     </div>
-                    <a class="btn btn-primary px-3" href="">$99.00/Day</a>
+                    <a class="btn btn-primary px-3" href="https://cosmos.unab.edu.co">¡Matricula!</a>
                 </div>
                 <div class="rent-item">
-                    <img class="img-fluid mb-4" src="img/car-rent-3.png" alt="">
-                    <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
+                    <img class="img-fluid mb-4" src="img/logo unab negativo.jpeg" alt="">
+                    <h4 class="text-uppercase mb-4">Ciberseguridad</h4>
                     <div class="d-flex justify-content-center mb-4">
-                        <div class="px-2">
-                            <i class="fa fa-car text-primary mr-1"></i>
-                            <span>2015</span>
-                        </div>
                         <div class="px-2 border-left border-right">
                             <i class="fa fa-cogs text-primary mr-1"></i>
-                            <span>AUTO</span>
-                        </div>
-                        <div class="px-2">
-                            <i class="fa fa-road text-primary mr-1"></i>
-                            <span>25K</span>
+                            <span>NRC:7382872</span>
                         </div>
                     </div>
-                    <a class="btn btn-primary px-3" href="">$99.00/Day</a>
+                    <a class="btn btn-primary px-3" href="https://cosmos.unab.edu.co">¡Matricula!</a>
                 </div>
                 <div class="rent-item">
-                    <img class="img-fluid mb-4" src="img/car-rent-4.png" alt="">
-                    <h4 class="text-uppercase mb-4">Mercedes Benz R3</h4>
+                    <img class="img-fluid mb-4" src="img/logoUnab.png" alt="">
+                    <h4 class="text-uppercase mb-4">Futbol</h4>
                     <div class="d-flex justify-content-center mb-4">
-                        <div class="px-2">
-                            <i class="fa fa-car text-primary mr-1"></i>
-                            <span>2015</span>
-                        </div>
                         <div class="px-2 border-left border-right">
                             <i class="fa fa-cogs text-primary mr-1"></i>
-                            <span>AUTO</span>
-                        </div>
-                        <div class="px-2">
-                            <i class="fa fa-road text-primary mr-1"></i>
-                            <span>25K</span>
+                            <span>NRC:787987</span>
                         </div>
                     </div>
-                    <a class="btn btn-primary px-3" href="">$99.00/Day</a>
+                    <a class="btn btn-primary px-3" href="https://cosmos.unab.edu.co">¡Matricula!</a>
                 </div>
             </div>
         </div>
@@ -380,28 +297,25 @@
         <div class="container py-5">
             <div class="owl-carousel vendor-carousel">
                 <div class="bg-light p-4">
-                    <img src="img/vendor-1.png" alt="">
+                    <img src="img/vibra+.png" alt="">
                 </div>
                 <div class="bg-light p-4">
-                    <img src="img/vendor-2.png" alt="">
+                    <img src="img/cohete.png" alt="">
                 </div>
                 <div class="bg-light p-4">
-                    <img src="img/vendor-3.png" alt="">
+                    <img src="img/cafe.png" alt="">
                 </div>
                 <div class="bg-light p-4">
-                    <img src="img/vendor-4.png" alt="">
+                    <img src="img/parlante.png" alt="">
                 </div>
                 <div class="bg-light p-4">
-                    <img src="img/vendor-5.png" alt="">
+                    <img src="img/micro.png" alt="">
                 </div>
                 <div class="bg-light p-4">
-                    <img src="img/vendor-6.png" alt="">
+                    <img src="img/unab.jpeg" alt="">
                 </div>
                 <div class="bg-light p-4">
-                    <img src="img/vendor-7.png" alt="">
-                </div>
-                <div class="bg-light p-4">
-                    <img src="img/vendor-8.png" alt="">
+                    <img src="img/news.png" alt="" >
                 </div>
             </div>
         </div>
